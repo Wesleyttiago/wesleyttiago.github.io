@@ -1,6 +1,19 @@
 /* The page remains readable without JavaScript. Interactions enhance it. */
 'use strict';
 const projects = {
+  garimpo: {
+  "title": "Garimpo Smart",
+  "description": "Uma vitrine de achadinhos criada para receber visitantes de redes sociais e apresentar uma seleção de produtos. O visitante explora as categorias e segue para o Mercado Livre pelo link de afiliado da oferta escolhida.",
+  "learning": [
+    "HTML semântico e CSS mobile-first para uma página leve e responsiva.",
+    "Filtros por categoria com contagem acessível e preferência de tema salva no dispositivo.",
+    "Organização de ofertas principais e alternativas, com imagens WebP e links de afiliado.",
+    "Configuração opcional do grupo VIP, pronta para conectar quando houver um convite."
+  ],
+  "note": "Projeto voltado a um negócio de curadoria e afiliação. A compra, o pagamento e o atendimento do pedido acontecem no Mercado Livre.",
+  "source": "https://github.com/Wesleyttiago/garimpo-smart-ml",
+  "demo": "https://wesleyttiago.github.io/garimpo-smart-ml/"
+},
   aula: {
     title: 'Cadastro de produto',
     description: 'O repositório aula02 reúne um exercício de introdução à programação web. O formulário de cadastro trabalha a organização dos campos e a marcação de uma página.',
