@@ -1,6 +1,18 @@
 /* The page remains readable without JavaScript. Interactions enhance it. */
 'use strict';
 const projects = {
+  automacao: {
+  "title": "Garimpo Smart · Automação em desenvolvimento",
+  "description": "Uma extensão do Garimpo Smart que explora automação de curadoria com n8n, um serviço em Node.js e execução local em Docker. O fluxo atual prepara rascunhos para revisão, sem publicar automaticamente na vitrine.",
+  "learning": [
+    "Instalação local com Docker Compose e workflow do n8n validado com dados de simulação.",
+    "Autenticação OAuth com PKCE, validação de state e renovação de tokens, com credenciais guardadas localmente.",
+    "Pesquisa e detalhes de produtos do catálogo acessíveis nos testes; acesso à busca geral e a anúncios específicos ainda retorna HTTP 403.",
+    "Curadoria de ofertas, geração automática de links de afiliado e publicação na vitrine são próximas etapas, ainda não concluídas."
+  ],
+  "note": "Em desenvolvimento. A demonstração do fluxo usa produtos e preços fictícios. Os testes de catálogo não confirmaram ofertas de compra. O workflow não cria links de afiliado nem publica produtos automaticamente na configuração atual.",
+  "source": "https://github.com/Wesleyttiago/garimpo-smart-ml/tree/main/automation"
+},
   garimpo: {
   "title": "Garimpo Smart",
   "description": "Uma vitrine de achadinhos criada para receber visitantes de redes sociais e apresentar uma seleção de produtos. O visitante explora as categorias e segue para o Mercado Livre pelo link de afiliado da oferta escolhida.",
