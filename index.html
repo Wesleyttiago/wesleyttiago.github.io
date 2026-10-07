@@ -4,99 +4,117 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f8f8f4">
-  <meta name="description" content="Wesley Tiago: técnico em TI, estudante de ADS e uma trajetória entre suporte e desenvolvimento. Explore meus projetos em três níveis.">
-  <title>Wesley Tiago — Do suporte ao código</title>
+  <meta name="description" content="Wesley Tiago, técnico em TI e estudante de ADS. Um portfólio que evolui do simples ao complexo, com projetos de interfaces, React, APIs e automação.">
+  <title>Wesley Tiago — Do simples ao complexo</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%232e4fea'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Arial' font-size='29' font-weight='bold' fill='white'%3Ewt%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css?v=20261007-portfolio">
+  <script src="script.js?v=20261007-portfolio" defer></script>
 </head>
-<body>
-  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
-  <header class="site-header">
-    <a class="wordmark" href="#simples" aria-label="Wesley Tiago, início">wt<span>.</span></a>
-    <nav aria-label="Níveis do portfólio">
-      <a href="#simples" class="nav-level active" aria-current="location"><span>01</span> Simples</a>
-      <a href="#intermediario" class="nav-level"><span>02</span> Intermediário</a>
-      <a href="#avancado" class="nav-level"><span>03</span> Avançado</a>
-    </nav>
-    <a class="header-contact" href="#contato">Vamos conversar</a>
-    <div class="reading-progress" aria-hidden="true"></div>
-  </header>
-  <main id="conteudo">
-    <section id="simples" class="chapter simple" aria-labelledby="simple-title">
-      <div class="container">
-        <div class="chapter-meta"><span>01 / SIMPLES</span><span>RECIFE, PE · BRASIL</span></div>
-        <div class="hero-grid">
-          <div>
-            <p class="eyebrow">SUPORTE EM TI + DESENVOLVIMENTO</p>
-            <h1 id="simple-title">Wesley<br><span>Tiago.</span></h1>
-            <p class="hero-intro">Pessoas primeiro.<br>Tecnologia para fazer acontecer.</p>
-            <p class="hero-description">Sou técnico em TI e estudante de Análise e Desenvolvimento de Sistemas. Entre resolver problemas e escrever código, estou construindo meu caminho.</p>
-            <div class="actions"><a class="button primary" href="#intermediario">Conheça minha jornada</a><a class="text-link" href="https://github.com/Wesleyttiago" target="_blank" rel="noopener noreferrer">Meu GitHub</a></div>
-          </div>
-          <aside class="first-project" aria-labelledby="first-project-title">
-            <div class="note-label"><span>O PRIMEIRO PASSO</span><span>HTML</span></div>
-            <h2 id="first-project-title">Tudo começa<br>com uma estrutura.</h2>
-            <p>Antes dos efeitos, o essencial: conteúdo, campos e uma página que faz sentido.</p>
-            <pre aria-label="Exemplo de estrutura HTML de um formulário"><code><span class="code-muted">&lt;!-- aprender, construir, evoluir --&gt;</span>
-<span class="code-blue">&lt;form&gt;</span>
+<body data-stage="simples">
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+<header class="site-header">
+  <a class="wordmark" href="#simples" aria-label="Wesley Tiago, início">wt<span>.</span></a>
+  <nav aria-label="Níveis do portfólio">
+    <a href="#simples" class="nav-level active" aria-current="location"><span>01</span> Simples</a>
+    <a href="#intermediario" class="nav-level"><span>02</span> Intermediário</a>
+    <a href="#avancado" class="nav-level"><span>03</span> Avançado</a>
+  </nav>
+  <a class="header-contact" href="#contato">Vamos conversar <span aria-hidden="true">↗</span></a>
+  <div class="reading-progress" aria-hidden="true"></div>
+</header>
+<main id="conteudo" tabindex="-1">
+<section id="simples" class="chapter simple" aria-labelledby="simple-title">
+ <div class="container">
+  <div class="chapter-meta"><span>01 / SIMPLES</span><span>RECIFE, PE · BRASIL</span></div>
+  <div class="hero-grid">
+   <div class="hero-copy">
+    <p class="eyebrow">SUPORTE EM TI + DESENVOLVIMENTO</p>
+    <h1 id="simple-title">Wesley<br>Tiago<span>.</span></h1>
+    <p class="hero-intro">Do suporte ao código.</p>
+    <p class="hero-description">Sou técnico em TI e estudante de Análise e Desenvolvimento de Sistemas. Gosto de entender o problema, aprender na prática e construir algo que ajude quem vai usar.</p>
+    <div class="actions"><a class="button primary" href="#intermediario">Explorar meus projetos <span aria-hidden="true">↓</span></a><a class="text-link" href="https://github.com/Wesleyttiago" target="_blank" rel="noopener noreferrer">Meu GitHub <span aria-hidden="true">↗</span></a></div>
+   </div>
+   <aside class="first-project" aria-labelledby="first-project-title">
+    <div class="note-label"><span>ONDE TUDO COMEÇOU</span><span>HTML</span></div>
+    <h2 id="first-project-title">Primeiro,<br>uma estrutura.</h2>
+    <p>Um formulário de cadastro. Campos, rótulos e um botão: os primeiros passos na web.</p>
+    <pre aria-label="Exemplo de estrutura de um formulário HTML"><code>&lt;form&gt;
   &lt;label&gt;Nome do produto&lt;/label&gt;
   &lt;input type="text" required&gt;
   &lt;button&gt;Cadastrar&lt;/button&gt;
-<span class="code-blue">&lt;/form&gt;</span></code></pre>
-            <div class="note-footer"><div><strong>aula02</strong><span>Fundamentos de formulários</span></div><a class="text-link" href="https://github.com/Wesleyttiago/aula02" target="_blank" rel="noopener noreferrer">Ver código</a></div>
-          </aside>
-        </div>
-        <div class="hero-foot"><span>Técnico em TI · Estudante de ADS · Usuário de Linux</span><a href="#intermediario">Role para ver a evolução</a></div>
-      </div>
-    </section>
-    <section id="intermediario" class="chapter intermediate" aria-labelledby="intermediate-title">
-      <div class="container">
-        <div class="chapter-meta"><span>02 / INTERMEDIÁRIO</span><span>ESTRUTURA GANHA INTENÇÃO</span></div>
-        <div class="section-heading"><h2 id="intermediate-title">Da bancada<br>para o <em>navegador.</em></h2><p>O suporte me ensinou a olhar para quem usa a tecnologia. O desenvolvimento me dá uma nova maneira de resolver seus problemas.</p></div>
-        <div class="journey-grid">
-          <div class="journey-intro"><span class="eyebrow">UM POUCO DA MINHA HISTÓRIA</span><h3>Aprender fazendo.<br>Avançar entendendo.</h3><p>Minha base está na prática: manutenção, configuração de sistemas e apoio a usuários. Hoje, levo essa experiência para o estudo de sistemas e para os primeiros projetos web.</p></div>
-          <ol class="timeline">
-            <li><span class="timeline-number">01</span><div><h3>Uma base técnica</h3><p>Formação em Manutenção e Suporte em Informática na ETEPAM. Computadores, impressoras, sistemas operacionais e redes fazem parte dessa bagagem.</p></div></li>
-            <li><span class="timeline-number">02</span><div><h3>Um caminho para a TI</h3><p>A experiência administrativa também faz parte da minha trajetória. Organização e atenção às pessoas acompanham minha escolha de seguir na tecnologia.</p></div></li>
-            <li><span class="timeline-number">03</span><div><h3>O próximo capítulo</h3><p>Na FICR, estudo Análise e Desenvolvimento de Sistemas. No GitHub, transformo o aprendizado em projetos e experimento novas possibilidades na web.</p></div></li>
-          </ol>
-        </div>
-        <div class="skills-line"><span>NA MINHA BAGAGEM</span><div><span>Suporte a usuários</span><span>Manutenção</span><span>Linux</span><span>Redes</span><span>HTML & CSS</span><span>JavaScript em estudo</span></div></div>
-        <article class="ui-showcase">
-          <div class="project-copy"><span class="eyebrow">PROJETO 02 · INTERFACE</span><h3>Universo<br>UI/UX<span>.</span></h3><p>Um estudo de evolução visual: do básico ao avançado, explorando layout, responsividade e interação.</p><ul class="project-tags" aria-label="Tecnologias"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul><div class="actions"><a class="button primary" href="https://wesleyttiago.github.io/Projeto-simples-CSS-UI-UX/" target="_blank" rel="noopener noreferrer">Abrir projeto</a><button class="text-link" type="button" data-project="ui">Sobre o projeto</button></div></div>
-          <figure class="project-window"><div class="window-bar"><span aria-hidden="true">● ● ●</span><span>Universo UI/UX / página real</span></div><img src="assets/ui-ux.jpg" alt="Projeto Universo UI/UX: seção escura com três cartões sobre design responsivo, interatividade e performance." width="1348" height="926" loading="lazy"><figcaption>Uma interface que acompanha a evolução do aprendizado.</figcaption></figure>
-        </article>
-      </div>
-    </section>
-    <section id="avancado" class="chapter advanced" aria-labelledby="advanced-title">
-      <div class="container">
-        <div class="chapter-meta"><span>03 / AVANÇADO</span><span><i class="status-dot" aria-hidden="true"></i> MAIS CAMADAS. MAIS POSSIBILIDADES.</span></div>
-        <div class="section-heading"><h2 id="advanced-title">Código que<br>ganha <em>vida.</em></h2><p>A página fica mais complexa; o objetivo continua simples: criar uma experiência clara, útil e interessante de explorar.</p></div>
-        <article class="stream-showcase">
-          <div class="stream-info"><span class="eyebrow">PROJETO 03 · DADOS + INTERFACE</span><h3>Uma interface.<br>Um catálogo.<br><span>Novos desafios.</span></h3><p>Um projeto de estudo inspirado em streaming, com catálogo conectado à API do TMDB, busca e trailers. Uma oportunidade para aproximar JavaScript de conteúdo real.</p><ul class="project-tags" aria-label="Tecnologias"><li>JavaScript</li><li>Fetch API</li><li>TMDB</li></ul><div class="actions"><a class="button mint" href="https://wesleyttiago.github.io/projeto-streaming-estudo/" target="_blank" rel="noopener noreferrer">Explorar demonstração</a><button class="text-link" type="button" data-project="streaming">Ver detalhes</button></div><p class="study-note">Projeto educacional de interface. Os trailers e o catálogo não constituem um serviço de streaming.</p></div>
-          <div class="stream-visual"><div class="window-bar"><span aria-hidden="true">● ● ●</span><span>projeto-streaming-estudo</span></div><img src="assets/streaming.jpg" alt="Demonstração da interface de streaming com navegação e fileiras de filmes e séries no catálogo." width="1348" height="926" loading="lazy"><div class="visual-caption"><span>CONTEÚDO DINÂMICO</span><strong>Da estrutura aos dados.</strong></div></div>
-        </article>
-        <div class="lab-heading"><div><span class="eyebrow">EXPLORE O CÓDIGO</span><h3>Pequenos projetos.<br>Aprendizados que ficam.</h3></div><p>Filtre por tema e veja o que cada projeto explora.</p></div>
-        <div class="filter-bar" role="group" aria-label="Filtrar projetos"><button type="button" data-filter="all" aria-pressed="true">Todos <span>05</span></button><button type="button" data-filter="fundamentos" aria-pressed="false">Fundamentos</button><button type="button" data-filter="interface" aria-pressed="false">Interface</button><button type="button" data-filter="api" aria-pressed="false">APIs</button><button type="button" data-filter="negocios" aria-pressed="false">Negócios</button><button type="button" data-filter="automacao" aria-pressed="false">Automação</button></div>
-        <p class="sr-only" id="filter-status" aria-live="polite">5 projetos exibidos.</p>
-        <div class="project-grid">
-          <article class="project-card" data-category="fundamentos"><div class="card-meta"><span>01 / FUNDAMENTOS</span><span>HTML</span></div><h4>Cadastro de produto</h4><p>Labels, campos, seleção de categoria e validação nativa: a estrutura de um formulário.</p><button type="button" class="card-open" data-project="aula">Explorar projeto <span aria-hidden="true">+</span></button></article>
-          <article class="project-card" data-category="interface"><div class="card-meta"><span>02 / INTERFACE</span><span>CSS + JS</span></div><h4>Universo UI/UX</h4><p>Uma experiência em três níveis, com layout responsivo e seções interativas.</p><button type="button" class="card-open" data-project="ui">Explorar projeto <span aria-hidden="true">+</span></button></article>
-          <article class="project-card" data-category="api"><div class="card-meta"><span>03 / APIS</span><span>JAVASCRIPT</span></div><h4>Interface de streaming</h4><p>Conteúdo da API, busca e catálogo: aprendendo a trabalhar com dados na interface.</p><button type="button" class="card-open" data-project="streaming">Explorar projeto <span aria-hidden="true">+</span></button></article>
-          <article class="project-card" data-category="negocios" id="garimpo-smart"><div class="card-meta"><span>04 / NEGÓCIOS</span><span>HTML + CSS + JS</span></div><h4>Garimpo Smart</h4><p>Uma vitrine de achadinhos pensada para celular, com filtros, modos claro e escuro e links de afiliado para o Mercado Livre.</p><a class="text-link project-live-link" href="https://wesleyttiago.github.io/garimpo-smart-ml/" target="_blank" rel="noopener noreferrer">Abrir o Garimpo Smart</a><button type="button" class="card-open" data-project="garimpo">Explorar projeto <span aria-hidden="true">+</span></button></article>
-          <article class="project-card" data-category="automacao" id="garimpo-automacao"><div class="card-meta"><span>05 / AUTOMAÇÃO</span><span>EM DESENVOLVIMENTO</span></div><h4>Garimpo Smart · Automação</h4><p>Um fluxo com n8n, Node.js e Docker para preparar a curadoria de produtos. Autenticação OAuth implementada; busca de ofertas e geração automática de links em investigação.</p><button type="button" class="card-open" data-project="automacao">Acompanhar desenvolvimento <span aria-hidden="true">+</span></button></article>
-        </div>
-        <div class="learning-note"><span aria-hidden="true">&lt;/&gt;</span><p>Os níveis contam a evolução desta experiência visual.<br>Minha trajetória continua em construção, um projeto por vez.</p><a href="https://github.com/Wesleyttiago?tab=repositories" target="_blank" rel="noopener noreferrer">Todos os repositórios</a></div>
-      </div>
-    </section>
-    <section id="contato" class="contact" aria-labelledby="contact-title">
+&lt;/form&gt;</code></pre>
+    <div class="note-footer"><div><strong>aula02</strong><span>Fundamentos de HTML</span></div><a class="text-link" href="https://github.com/Wesleyttiago/aula02" target="_blank" rel="noopener noreferrer" aria-label="Ver código do projeto aula02">Ver código <span aria-hidden="true">↗</span></a></div>
+   </aside>
+  </div>
+  <div class="hero-foot"><span>Comece pelo básico. Acompanhe a evolução.</span><a href="#intermediario">A página muda conforme você desce <span aria-hidden="true">↓</span></a></div>
+ </div>
+</section>
+
+<section id="intermediario" class="chapter intermediate" aria-labelledby="intermediate-title">
+ <div class="container">
+  <div class="chapter-meta"><span>02 / INTERMEDIÁRIO</span><span>ESTRUTURA + IDENTIDADE + INTERAÇÃO</span></div>
+  <div class="section-heading"><div><p class="eyebrow">O VISUAL ENTRA EM CENA</p><h2 id="intermediate-title">Agora, a estrutura<br>ganha <em>personalidade.</em></h2></div><p>Cores, composição e comportamento começam a trabalhar juntos. O cuidado está nos detalhes e em como a página funciona em cada tela.</p></div>
+  <div class="journey-grid">
+   <div class="journey-intro"><span class="eyebrow">MINHA BAGAGEM</span><h3>A prática do suporte.<br>A curiosidade pelo código.</h3><p>Manutenção, sistemas, redes e apoio a usuários são minha base. Hoje, levo essa experiência para os projetos que desenvolvo enquanto estudo.</p></div>
+   <ol class="timeline"><li><span class="timeline-number">01</span><div><h3>Formação técnica</h3><p>Manutenção e Suporte em Informática na ETEPAM, com experiência em computadores, impressoras e sistemas.</p></div></li><li><span class="timeline-number">02</span><div><h3>Desenvolvimento em estudo</h3><p>Análise e Desenvolvimento de Sistemas na FICR. HTML, CSS, JavaScript e React nos projetos do GitHub.</p></div></li></ol>
+  </div>
+  <div class="skills-line"><span>NO MEU DIA A DIA</span><ul><li>Suporte a usuários</li><li>Linux</li><li>Redes</li><li>HTML & CSS</li><li>JavaScript</li><li>React em estudo</li></ul></div>
+  <div class="interface-grid">
+   <article class="interface-card ui-card" id="universo-ui">
+    <div class="interface-preview"><div class="window-bar"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>Universo UI/UX</span></div><img src="assets/ui-ux.jpg" alt="Projeto Universo UI/UX com cartões de design responsivo, interatividade e performance." width="1348" height="926" loading="lazy"></div>
+    <div class="interface-body"><div class="card-topline"><span class="eyebrow">HTML · CSS · JAVASCRIPT</span><span class="project-index">02</span></div><h3>Universo UI/UX</h3><p>Uma página que evolui em três níveis. Um estudo de layout, responsividade e interações, com a mesma ideia que guia este portfólio.</p><div class="actions"><a class="button primary" href="https://wesleyttiago.github.io/Projeto-simples-CSS-UI-UX/" target="_blank" rel="noopener noreferrer">Abrir projeto <span aria-hidden="true">↗</span></a><button class="text-link" type="button" data-project="ui" hidden>Ver detalhes</button><a class="source-fallback text-link" href="https://github.com/Wesleyttiago/Projeto-simples-CSS-UI-UX" target="_blank" rel="noopener noreferrer">Ver código</a></div></div>
+   </article>
+   <article class="interface-card goiana-card" id="goiana-digital">
+    <div class="interface-preview"><div class="window-bar"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>Goiana Digital</span><span class="preview-badge">REACT</span></div><img src="assets/goiana-login.jpg" alt="Tela de login de Goiana Digital com identidade azul e amarela, ilustração da cidade e formulário." width="1363" height="936" loading="lazy"></div>
+    <div class="interface-body"><div class="card-topline"><span class="eyebrow">REACT · VITE · CSS</span><span class="project-index">03</span></div><h3>Login Goiana</h3><p>Uma tela de acesso inspirada na identidade visual de Goiana, PE. Componentes React, validação de campos e atenção à experiência no celular.</p><div class="actions"><a class="button primary" href="https://wesleyttiago.github.io/goiana-login-react/" target="_blank" rel="noopener noreferrer">Abrir projeto <span aria-hidden="true">↗</span></a><button class="text-link" type="button" data-project="goiana" hidden>Ver detalhes</button><a class="source-fallback text-link" href="https://github.com/Wesleyttiago/goiana-login-react" target="_blank" rel="noopener noreferrer">Ver código</a></div><p class="project-note">Protótipo de interface, sem autenticação real ou vínculo com a prefeitura.</p></div>
+   </article>
+  </div>
+  <div class="chapter-bridge"><span>Já temos forma e interação.</span><a href="#avancado">Vamos conectar os projetos a dados? <span aria-hidden="true">↓</span></a></div>
+ </div>
+</section>
+
+<section id="avancado" class="chapter advanced" aria-labelledby="advanced-title">
+ <div class="advanced-grid-pattern" aria-hidden="true"></div>
+ <div class="container">
+  <div class="chapter-meta"><span>03 / AVANÇADO</span><span><i class="status-dot" aria-hidden="true"></i> DADOS + CONTEÚDO + AUTOMAÇÃO</span></div>
+  <div class="section-heading"><div><p class="eyebrow">MAIS CAMADAS, NOVOS DESAFIOS</p><h2 id="advanced-title">Além da tela.<br><em>Projetos conectados.</em></h2></div><p>Interfaces que consultam APIs, organizam conteúdo e se conectam a fluxos de trabalho. Aqui entram os estudos mais completos e o que ainda estou desenvolvendo.</p></div>
+  <article class="stream-showcase" id="streaming-projeto">
+   <div class="stream-info"><span class="eyebrow">JAVASCRIPT · TMDB · YOUTUBE</span><h3>Um catálogo<br>para <span>explorar.</span></h3><p>Filmes e séries vindos da API do TMDB, busca, filtros de gênero, trailers e uma lista salva no navegador. Um estudo de dados e interações em uma interface inspirada na Netflix.</p><ul class="project-tags" aria-label="Recursos do projeto"><li>Catálogo dinâmico</li><li>Busca</li><li>Lista pessoal</li></ul><div class="actions"><a class="button mint" href="https://wesleyttiago.github.io/projeto-streaming-estudo/" target="_blank" rel="noopener noreferrer">Explorar catálogo <span aria-hidden="true">↗</span></a><button class="text-link" type="button" data-project="streaming" hidden>Ver detalhes</button><a class="source-fallback text-link" href="https://github.com/Wesleyttiago/projeto-streaming-estudo" target="_blank" rel="noopener noreferrer">Ver código</a></div><p class="study-note">Projeto de estudo: catálogo e trailers, sem reprodução de filmes completos.</p></div>
+   <figure class="stream-visual"><div class="window-bar"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>projeto-streaming-estudo</span><span class="preview-badge">API</span></div><img src="assets/streaming.jpg" alt="Interface de streaming com título em destaque e fileiras de filmes e séries." width="1348" height="926" loading="lazy"><figcaption><span>INTERFACE + DADOS</span><strong>Da requisição à experiência.</strong><span class="caption-mark" aria-hidden="true">↗</span></figcaption></figure>
+  </article>
+
+  <article class="garimpo-showcase" id="garimpo-smart">
+   <div class="garimpo-head"><div><span class="eyebrow">CONTEÚDO · CURADORIA · AUTOMAÇÃO</span><h3>Garimpo <em>Smart.</em></h3></div><p>Um projeto com várias partes: do blog público aos experimentos com pesquisa de produtos e anúncios.</p></div>
+   <div class="garimpo-feature"><a class="blog-preview" href="https://wesleyttiago.github.io/garimpo-smart-ml/blog/" target="_blank" rel="noopener noreferrer" aria-label="Abrir blog Casa e rotina do Garimpo Smart"><img src="assets/garimpo-blog.jpg" alt="Blog Casa e rotina com guias para a casa, cores verdes e imagem de uma cozinha." width="1348" height="926" loading="lazy"><span class="preview-link">Casa & rotina <span aria-hidden="true">↗</span></span></a><div class="garimpo-copy"><span class="project-state"><i aria-hidden="true"></i> BLOG PUBLICADO</span><h4>Conteúdo que vira<br>um projeto de verdade.</h4><p>Guias para casa e recomendações organizadas por ambiente. A curadoria e as automações ficam em áreas próprias, para revisar os resultados antes de publicar.</p><div class="actions"><a class="button mint" href="https://wesleyttiago.github.io/garimpo-smart-ml/blog/" target="_blank" rel="noopener noreferrer">Visitar o blog <span aria-hidden="true">↗</span></a><a class="text-link" href="https://github.com/Wesleyttiago/garimpo-smart-ml" target="_blank" rel="noopener noreferrer">Ver repositório</a></div></div></div>
+   <div class="parts-heading"><h4>Explore as partes do projeto</h4><span>Abra cada área para conhecer</span></div>
+   <div class="garimpo-parts">
+    <details class="lab-part"><summary><span class="part-number">01</span><span><strong>Blog & recomendações</strong><small>HTML · CSS · JAVASCRIPT</small></span><span class="expand-icon" aria-hidden="true">+</span></summary><div class="part-content"><p>Guias, busca por assunto e recomendações por ambiente. O conteúdo é organizado em JSON e publicado como páginas estáticas.</p><div class="part-links"><a href="https://wesleyttiago.github.io/garimpo-smart-ml/blog/" target="_blank" rel="noopener noreferrer">Abrir blog ↗</a><a href="https://github.com/Wesleyttiago/garimpo-smart-ml/tree/main/blog" target="_blank" rel="noopener noreferrer">Ver código ↗</a></div></div></details>
+    <details class="lab-part"><summary><span class="part-number">02</span><span><strong>Curadoria de produtos</strong><small>IMPORTAÇÃO · FILTROS · REVISÃO</small></span><span class="expand-icon" aria-hidden="true">+</span></summary><div class="part-content"><p>Uma área para importar o JSON da automação, comparar candidatos e filtrar resultados. O arquivo é lido no navegador, sem envio para um servidor.</p><div class="part-links"><a href="https://wesleyttiago.github.io/garimpo-smart-ml/" target="_blank" rel="noopener noreferrer">Abrir curadoria ↗</a><a href="https://github.com/Wesleyttiago/garimpo-smart-ml" target="_blank" rel="noopener noreferrer">Ver código ↗</a></div></div></details>
+    <details class="lab-part"><summary><span class="part-number">03</span><span><strong>Automação Mercado Livre</strong><small>N8N · NODE.JS · DOCKER</small></span><span class="expand-icon" aria-hidden="true">+</span></summary><div class="part-content"><p>Fluxo local para pesquisar produtos e gerar resultados para revisão. Tem demonstração com dados fictícios. A pesquisa real ainda depende do acesso à API; há erro 403 pendente.</p><div class="part-links"><a href="https://github.com/Wesleyttiago/garimpo-smart-ml/tree/main/automation" target="_blank" rel="noopener noreferrer">Conhecer a automação ↗</a></div><span class="part-state">Em desenvolvimento · execução local</span></div></details>
+    <details class="lab-part"><summary><span class="part-number">04</span><span><strong>Pesquisa de anúncios</strong><small>N8N · APIFY · RELATÓRIOS</small></span><span class="expand-icon" aria-hidden="true">+</span></summary><div class="part-content"><p>Um piloto que consulta anúncios de Facebook e Instagram pela Apify, filtra os resultados e gera um relatório em JSON. A execução acontece no n8n, com credenciais próprias.</p><div class="part-links"><a href="https://github.com/Wesleyttiago/garimpo-smart-ml/tree/main/automacoes/pesquisa-anuncios" target="_blank" rel="noopener noreferrer">Ver fluxo e instruções ↗</a></div><span class="part-state">Piloto · uma pesquisa por execução</span></div></details>
+   </div>
+  </article>
+
+  <section class="project-library" id="projetos" aria-labelledby="projects-title">
+   <div class="lab-heading"><div><span class="eyebrow">TODOS OS PROJETOS</span><h3 id="projects-title">O que estou<br><em>construindo.</em></h3></div><div class="repo-summary"><strong>06</strong><span>repositórios públicos<br>do primeiro HTML às automações</span></div></div>
+   <div class="project-toolbar"><div class="filter-bar" role="group" aria-label="Filtrar projetos" hidden><button type="button" data-filter="all" aria-pressed="true">Todos <span>06</span></button><button type="button" data-filter="fundamentos" aria-pressed="false">Fundamentos</button><button type="button" data-filter="interface" aria-pressed="false">Interfaces</button><button type="button" data-filter="react" aria-pressed="false">React</button><button type="button" data-filter="api" aria-pressed="false">APIs & automação</button></div><p id="filter-status" role="status" aria-live="polite">6 projetos</p></div>
+   <div class="project-grid"><article class="project-card" data-category="fundamentos" data-repo="aula02"><div class="card-meta"><span>01 / FUNDAMENTOS</span><span class="card-symbol" aria-hidden="true">&lt;/&gt;</span></div><h4>Cadastro de produto</h4><p>O início: estrutura HTML, campos de formulário e validação nativa.</p><ul class="card-tags"><li>HTML</li><li>Formulários</li></ul><div class="card-actions"><a href="https://github.com/Wesleyttiago/aula02" target="_blank" rel="noopener noreferrer" aria-label="Ver código de Cadastro de produto">Código <span aria-hidden="true">↗</span></a><button type="button" data-project="aula" hidden aria-label="Ver detalhes de Cadastro de produto">Detalhes <span aria-hidden="true">+</span></button></div></article>
+<article class="project-card" data-category="interface" data-repo="Projeto-simples-CSS-UI-UX"><div class="card-meta"><span>02 / INTERFACE</span><span class="card-symbol" aria-hidden="true">◫</span></div><h4>Universo UI/UX</h4><p>Uma experiência em três níveis para estudar estilo, layout e interação.</p><ul class="card-tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul><div class="card-actions"><a href="https://github.com/Wesleyttiago/Projeto-simples-CSS-UI-UX" target="_blank" rel="noopener noreferrer" aria-label="Ver código de Universo UI/UX">Código <span aria-hidden="true">↗</span></a><button type="button" data-project="ui" hidden aria-label="Ver detalhes de Universo UI/UX">Detalhes <span aria-hidden="true">+</span></button></div></article>
+<article class="project-card" data-category="interface react" data-repo="goiana-login-react"><div class="card-meta"><span>03 / REACT</span><span class="card-symbol" aria-hidden="true">⚛</span></div><h4>Login Goiana</h4><p>Tela de acesso com componentes, validação e identidade visual de Goiana, PE.</p><ul class="card-tags"><li>React</li><li>Vite</li><li>CSS</li></ul><div class="card-actions"><a href="https://github.com/Wesleyttiago/goiana-login-react" target="_blank" rel="noopener noreferrer" aria-label="Ver código de Login Goiana">Código <span aria-hidden="true">↗</span></a><button type="button" data-project="goiana" hidden aria-label="Ver detalhes de Login Goiana">Detalhes <span aria-hidden="true">+</span></button></div></article>
+<article class="project-card" data-category="interface api" data-repo="projeto-streaming-estudo"><div class="card-meta"><span>04 / APIS</span><span class="card-symbol" aria-hidden="true">▷</span></div><h4>Interface de streaming</h4><p>Catálogo do TMDB, busca, detalhes de títulos, trailers e lista pessoal.</p><ul class="card-tags"><li>JavaScript</li><li>TMDB</li><li>YouTube</li></ul><div class="card-actions"><a href="https://github.com/Wesleyttiago/projeto-streaming-estudo" target="_blank" rel="noopener noreferrer" aria-label="Ver código de Interface de streaming">Código <span aria-hidden="true">↗</span></a><button type="button" data-project="streaming" hidden aria-label="Ver detalhes de Interface de streaming">Detalhes <span aria-hidden="true">+</span></button></div></article>
+<article class="project-card" data-category="interface api" data-repo="garimpo-smart-ml"><div class="card-meta"><span>05 / CONTEÚDO & AUTOMAÇÃO</span><span class="card-symbol" aria-hidden="true">⌘</span></div><h4>Garimpo Smart</h4><p>Blog, recomendações, curadoria de produtos e estudos de automação no n8n.</p><ul class="card-tags"><li>Node.js</li><li>n8n</li><li>Apify</li></ul><div class="card-actions"><a href="https://github.com/Wesleyttiago/garimpo-smart-ml" target="_blank" rel="noopener noreferrer" aria-label="Ver código de Garimpo Smart">Código <span aria-hidden="true">↗</span></a><button type="button" data-project="garimpo" hidden aria-label="Ver detalhes de Garimpo Smart">Detalhes <span aria-hidden="true">+</span></button></div></article>
+<article class="project-card" data-category="interface" data-repo="wesleyttiago.github.io"><div class="card-meta"><span>06 / PORTFÓLIO</span><span class="card-symbol" aria-hidden="true">wt.</span></div><h4>Este portfólio</h4><p>A própria página como experimento: do simples ao complexo, a cada seção.</p><ul class="card-tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul><div class="card-actions"><a href="https://github.com/Wesleyttiago/wesleyttiago.github.io" target="_blank" rel="noopener noreferrer" aria-label="Ver código de Este portfólio">Código <span aria-hidden="true">↗</span></a><button type="button" data-project="portfolio" hidden aria-label="Ver detalhes de Este portfólio">Detalhes <span aria-hidden="true">+</span></button></div></article></div>
+   <div class="learning-note"><span aria-hidden="true">↳</span><p>Os níveis mostram a evolução visual desta página.<br>Meu aprendizado continua, um projeto de cada vez.</p><a href="https://github.com/Wesleyttiago?tab=repositories" target="_blank" rel="noopener noreferrer">Ver todos no GitHub <span aria-hidden="true">↗</span></a></div>
+  </section>
+ </div>
+</section>
+<section id="contato" class="contact" aria-labelledby="contact-title">
       <div class="container">
         <div class="chapter-meta"><span>FALE COMIGO</span><span>SUPORTE + DESENVOLVIMENTO</span></div>
         <div class="contact-grid">
           <div>
-            <h2 id="contact-title">Vamos construir<br>o próximo <em>capítulo?</em></h2>
-            <p>Tem uma oportunidade em TI ou um projeto em mente? Escolha o canal que preferir para conversar comigo.</p>
+            <h2 id="contact-title">Uma ideia em mente?<br><em>Vamos conversar.</em></h2>
+            <p>Tem uma oportunidade em TI ou um projeto para construir? Me chama pelo canal que preferir.</p>
           </div>
           <div class="contact-links">
             <a class="contact-channel" href="mailto:wesleytiago670@gmail.com?subject=Contato%20pelo%20portf%C3%B3lio%20%E2%80%94%20Wesley%20Tiago" aria-label="Enviar e-mail para Wesley Tiago: wesleytiago670@gmail.com">
@@ -118,7 +136,8 @@
         <footer><a class="wordmark" href="#simples" aria-label="Voltar ao início">wt<span>.</span></a><p>Wesley Tiago · Recife, PE</p><a href="#simples">Voltar ao início</a></footer>
       </div>
     </section>
-  </main>
-  <dialog id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><span class="eyebrow">POR DENTRO DO PROJETO</span><button id="dialog-close" type="button" aria-label="Fechar detalhes do projeto">×</button></div><h2 id="dialog-title"></h2><p id="dialog-description"></p><h3>O que este estudo explora</h3><ul id="dialog-learning"></ul><p id="dialog-note" class="dialog-note"></p><div class="actions"><a id="dialog-source" class="button primary" target="_blank" rel="noopener noreferrer">Ver código no GitHub</a><a id="dialog-demo" class="text-link" target="_blank" rel="noopener noreferrer">Abrir demonstração</a></div></dialog>
+</main>
+<dialog id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><span class="eyebrow">POR DENTRO DO PROJETO</span><button id="dialog-close" type="button" aria-label="Fechar detalhes do projeto">×</button></div><p class="dialog-category" id="dialog-category"></p><h2 id="dialog-title"></h2><p id="dialog-description"></p><h3>O que estou explorando</h3><ul id="dialog-learning"></ul><p id="dialog-note" class="dialog-note"></p><div class="actions"><a id="dialog-source" class="button primary" target="_blank" rel="noopener noreferrer">Ver código no GitHub <span aria-hidden="true">↗</span></a><a id="dialog-demo" class="text-link" target="_blank" rel="noopener noreferrer">Abrir demonstração <span aria-hidden="true">↗</span></a></div></dialog>
 </body>
 </html>
+
