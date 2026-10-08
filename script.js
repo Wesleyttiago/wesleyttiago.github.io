@@ -118,6 +118,27 @@ const projects = {
     "demo": "https://wesleyttiago.github.io/garimpo-smart-ml/blog/",
     "source": "https://github.com/Wesleyttiago/garimpo-smart-ml"
   },
+  "chamados": {
+    "key": "chamados",
+    "repo": "chamados-ti",
+    "title": "Chamados TI",
+    "category": "Sistemas & banco de dados",
+    "filter": "interface react api",
+    "tech": ["React", "Node.js", "SQLite"],
+    "symbol": "↗",
+    "short": "Um sistema de suporte com cadastro, histórico, soluções e banco de dados local.",
+    "description": "Um projeto de estudo ligado à minha experiência com suporte de TI. Organiza solicitações, prioridades, atendimentos e soluções em um fluxo completo.",
+    "learning": [
+      "Cadastro, consulta, edição e exclusão de chamados com validação.",
+      "Estados e componentes React, busca, filtros e exportação CSV.",
+      "API REST em Node.js, tabelas relacionadas e consultas SQL parametrizadas.",
+      "Histórico do chamado e regra de conclusão com solução obrigatória.",
+      "Testes da API e das regras, com um roteiro para estudar o código."
+    ],
+    "note": "A demonstração pública usa dados fictícios e salva no navegador. O repositório inclui uma API e SQLite para execução local, sem autenticação.",
+    "demo": "https://wesleyttiago.github.io/chamados-ti/",
+    "source": "https://github.com/Wesleyttiago/chamados-ti"
+  },
   "portfolio": {
     "key": "portfolio",
     "repo": "wesleyttiago.github.io",
